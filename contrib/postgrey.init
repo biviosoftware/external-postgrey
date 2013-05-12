@@ -37,7 +37,7 @@ RETVAL=0
 
 start() {
         echo -n $"Starting $prog: "
-        daemon $postgrey -d $OPTIONS
+        daemon $postgrey -d $OPTIONS --pidfile=$PID_FILE
         RETVAL=$?
         echo
         [ $RETVAL = 0 ] && touch $LOCK_FILE
