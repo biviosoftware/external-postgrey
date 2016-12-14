@@ -1,11 +1,8 @@
+[![Build Status](https://api.travis-ci.org/schweikert/postgrey.svg)](https://travis-ci.org/schweikert/postgrey)
 
+# Postgrey - a Postfix policy server for greylisting
 
-    Postgrey - a Postfix policy server for greylisting
-    ==================================================
-
-
-Requirements
-------------
+## Requirements
 
 - Perl >= 5.6.0
 - Net::Server (Perl Module)
@@ -16,27 +13,25 @@ Requirements
 - NetAddr::IP
 
 
-Documentation
--------------
+## Documentation
 
 See POD documentation in postgrey. Execute:
 
-  perldoc postgrey
+    perldoc postgrey
 
 See also Postgrey's homepage:
 
-  http://postgrey.schweikert.ch/
+    http://postgrey.schweikert.ch/
 
 
-Mailing-List and getting Help
------------------------------
+## Mailing-List and getting Help
 
 There is a mailing-list for the discussion of postgrey, where you can
 also ask for help in case of trouble. To subscribe, send a mail with
 subject 'subscribe' to:
 
-  postgrey-request@list.ee.ethz.ch 
+    postgrey-request@list.ee.ethz.ch 
   
 There is also a mailing-list archive, where you might find answers:
 
-  http://lists.ee.ethz.ch/wws/arc/postgrey
+   http://lists.ee.ethz.ch/wws/arc/postgrey
